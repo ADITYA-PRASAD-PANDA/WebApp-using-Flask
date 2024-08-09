@@ -1,0 +1,3 @@
+we can send data through get and post.
+Get is used when we search anything in the form and it is converted into url.
+Post is used when you work on sensitive data .

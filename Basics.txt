@@ -1,0 +1,8 @@
+from flask import Flask  #Flask is the class name and flask is the package name which is used to built web applications
+
+app=Flask(__name__) # Here app is object
+@app.route('/') #this is a decorator and entry point of the webpage and as soon as the person hits the entrypoint of the webpage the index fun will run and print the output
+def index():
+    return "Hello World!"
+
+app.run(debug=True) # run is a function in flask class and debug=true is written because if further we modifies anything then no need to run again and again the file
